@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root to: "home#index"
+
+  match "/map", to: "map#index", via: :get
+  match "/calendar", to: "calendar#index", via: :get
 end

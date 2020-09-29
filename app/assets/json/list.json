@@ -2,7 +2,9 @@
     "villes": [
           {
               "nom": "Bourg-La-Reine",
-              "debarras": "1er Mercredi du Mois",
+              "debarras": {
+                "secteur": ["1er Mercredi du Mois"]
+              },
               "rues": [
                 {
                   "25 Août 1944 (rue du)": {
@@ -29,7 +31,9 @@
           },
           {
             "nom": "Sceaux",
-            "debarras": "2eme Jeudi du Mois",
+            "debarras": {
+              "secteur": ["2eme Jeudi du Mois"]
+            },
             "rues": [
               {
                 "Achille Garnon (rue)": {
@@ -50,97 +54,90 @@
           {
             "nom": "Bagneux",
             "debarras": {
-              "secteur": [
+              "secteur":
                 {
                   "1": "3eme Mercredi du Mois",
                   "2": "3eme Jeudi du Mois",
-                  "3": "3eme Vendredi du Mois",
+                  "3": "3eme Vendredi du Mois"
                 }
-              ]
             }
           },
           {
             "nom": "Clamart",
             "debarras": {
-              "secteur": [
+              "secteur":
                 {
                   "1": "4eme Mardi du Mois",
                   "2": "4eme Mercredi du Mois",
                   "3": "4eme Jeudi du Mois",
-                  "4": "4eme Vendredi du Mois",
+                  "4": "4eme Vendredi du Mois"
                 }
-              ]
             }
           },
           {
             "nom": "Malakoff",
             "debarras": {
-              "secteur": [
+              "secteur": 
                 {
                   "1": "2eme Vendredi du Mois",
-                  "2": "4eme Lundi du Mois",
+                  "2": "4eme Lundi du Mois"
                 }
-              ]
             }
           },
           {
             "nom": "Fontenay-aux-roses",
             "debarras": {
-              "secteur": [
+              "secteur":
                 {
                   "1": "3eme Lundi du Mois",
-                  "2": "3eme Mardi du Mois",
+                  "2": "3eme Mardi du Mois"
                 }
-              ]
             }
           },
           {
             "nom": "LePlessis-Robinson",
             "debarras": {
-              "secteur": [
+              "secteur": 
                 {
                   "1": "2eme Mardi du Mois",
-                  "2": "2eme Mercredi du Mois",
+                  "2": "2eme Mercredi du Mois"
                 }
-              ]
             }
           },
           {
             "nom": "Chatenay-Malabry",
             "debarras": {
-              "secteur": [
+              "secteur": 
                 {
-                  "A": "1er Jeudi du Mois",
-                  "B": "1er Vendredi du Mois",
-                  "C": "2eme Mardi du Mois",
+                  "1": "1er Jeudi du Mois",
+                  "2": "1er Vendredi du Mois",
+                  "3": "2eme Mardi du Mois"
                 }
-              ]
             }
           },
           {
             "nom": "Antony",
             "debarras": {
-              "secteur": [
+              "secteur": 
                 {
                   "1": "1er Lundi du Mois",
                   "2": "1er Mardi du Mois",
                   "3": "2eme Lundi du Mois",
-                  "4": "2eme Mercredi du Mois",
+                  "4": "2eme Mercredi du Mois"
                 }
-              ]
             }
           },
           {
             "nom": "Chatillon",
             "debarras": {
-              "secteur": [
+              "secteur": 
                 {
                   "1": "3eme Mardi du Mois",
                   "2": "3eme Mercredi du Mois",
                   "3": "3eme Jeudi du Mois",
-                  "4": "3eme Vendredi du Mois",
+                  "4": "3eme Vendredi du Mois"
                 }
-              ]
+
             }
         }
     ]

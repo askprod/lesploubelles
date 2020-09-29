@@ -1,2 +1,31 @@
-<h1>Calendar#index</h1>
-<p>Find me in app/views/calendar/index.html.erb</p>
+<h1>Calendar</h1>
+
+<h1>Pour le mois de <%= Date::MONTHNAMES[Time.now.month] %></h1>
+<% @json_database["villes"].each do |ville| %>
+    <p>
+        <%= ville["nom"] %>
+        <% if ville["debarras"]["secteur"].size > 1 %>
+            <% ville["debarras"]["secteur"].each_with_index do |secteur| %>
+                    <p>Secteur <%= secteur[0] %><p>
+                    <p>Date <%= secteur[1] %>, soit le: <%= current_month_date(secteur[1]) %>
+            <% end %>
+        <% else %>
+            <p><%= ville["debarras"]["secteur"] %></p>
+        <% end %>
+    </p>
+<% end %>
+
+<h1>Pour le mois de <%= Date::MONTHNAMES[(Time.now + 1.month).month] %></h1>
+<% @json_database["villes"].each do |ville| %>
+    <p>
+        <%= ville["nom"] %>
+        <% if ville["debarras"]["secteur"].size > 1 %>
+            <% ville["debarras"]["secteur"].each_with_index do |secteur| %>
+                    <p>Secteur <%= secteur[0] %><p>
+                    <p>Date <%= secteur[1] %>, soit le: <%= next_month_date(secteur[1]) %>
+            <% end %>
+        <% else %>
+            <p><%= ville["debarras"]["secteur"] %></p>
+        <% end %>
+    </p>
+<% end %>
