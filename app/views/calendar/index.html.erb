@@ -1,31 +1,17 @@
 <h1>Calendar</h1>
 
-<h1>Pour le mois de <%= Date::MONTHNAMES[Time.now.month] %></h1>
-<% @json_database["villes"].each do |ville| %>
-    <p>
-        <%= ville["nom"] %>
-        <% if ville["debarras"]["secteur"].size > 1 %>
-            <% ville["debarras"]["secteur"].each_with_index do |secteur| %>
-                    <p>Secteur <%= secteur[0] %><p>
-                    <p>Date <%= secteur[1] %>, soit le: <%= current_month_date(secteur[1]) %>
-            <% end %>
-        <% else %>
-            <p><%= ville["debarras"]["secteur"] %></p>
-        <% end %>
-    </p>
-<% end %>
+<h1>Date de passage des emcombrants</h1>
 
-<h1>Pour le mois de <%= Date::MONTHNAMES[(Time.now + 1.month).month] %></h1>
-<% @json_database["villes"].each do |ville| %>
-    <p>
-        <%= ville["nom"] %>
+<% @months_of_year.each do |month| %>
+    <h2><%= Date::MONTHNAMES[month] %></h2>
+    <% @json_database["villes"].each do |ville| %>
+        <h3><%= ville["nom"] %></h3>
         <% if ville["debarras"]["secteur"].size > 1 %>
             <% ville["debarras"]["secteur"].each_with_index do |secteur| %>
-                    <p>Secteur <%= secteur[0] %><p>
-                    <p>Date <%= secteur[1] %>, soit le: <%= next_month_date(secteur[1]) %>
+                    <p>Secteur <%= secteur[0] %>: <%= current_month_dates(month, secteur[1]) %>
             <% end %>
         <% else %>
-            <p><%= ville["debarras"]["secteur"] %></p>
+            <p><%= current_month_dates(month, ville["debarras"]["secteur"][0]) %>
         <% end %>
-    </p>
+    <% end %>
 <% end %>
