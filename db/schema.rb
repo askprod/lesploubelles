@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2020_09_30_132527) do
   end
 
   create_table "bin_greens", force: :cascade do |t|
-    t.integer "day"
+    t.text "days", default: [], array: true
     t.bigint "street_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 2020_09_30_132527) do
   end
 
   create_table "bin_recycles", force: :cascade do |t|
-    t.integer "day"
+    t.text "days", default: [], array: true
     t.bigint "street_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 2020_09_30_132527) do
   end
 
   create_table "bin_wastes", force: :cascade do |t|
-    t.integer "day"
+    t.text "days", default: [], array: true
     t.bigint "street_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

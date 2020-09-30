@@ -8,11 +8,11 @@
 <% end %>
 
 <% @months_of_year.each do |month| %>
-    <h2><%= Date::MONTHNAMES[month] %></h2>
-    <% @json_database["villes"].each do |ville| %>
-        <h3><%= ville["nom"] %></h3>
-        <% ville["debarras"]["secteur"].each_with_index do |secteur| %>
-                <p>Secteur <%= secteur[0] %>: <%= current_month_dates(month, secteur[1]) %>
+    <h2><%= find_month_with_int(month) %></h2>
+    <% @cities.each do |city| %>
+        <h3><%= city.name %></h3>
+        <% city.sectors.each do |sector| %>
+                <p>Secteur <%= sector.number %>: <%= current_month_dates(month, sector.bin_brocantes.first) %>
         <% end %>
     <% end %>
 <% end %>

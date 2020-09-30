@@ -1,23 +1,27 @@
 module CalendarHelper
-    def translate_week_name(value)
+    def translate_week_name(bin_brocante)
         days_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
         days_rails = ["1", "2", "3", "4", "5", "6", "0"]
-        new_index = days_fr.find_index(value).to_i
+        new_index = days_fr.find_index(bin_brocante).to_i
         return days_rails[new_index]
     end
 
-    def clean_list_string(string)
-        num = string[0]
-        day = translate_week_name(string.split(" ")[1])
+    def find_month_with_int(int)
+        return Date::MONTHNAMES[int]
+    end
+
+    def clean_list_string(bin_brocante)
+        num = bin_brocante.weeks_to_skip
+        day = translate_week_name(bin_brocante.day_of_week)
         return [num, day]
     end
 
-    def current_month_dates(month, string)
+    def current_month_dates(month, bin_brocante)
         year = Date.today.year
         start_date = Date.new(year, month).beginning_of_month
         end_date = Date.new(year, month).end_of_month
 
-        array = clean_list_string(string)
+        array = clean_list_string(bin_brocante)
         weeks_to_skip = array[0].to_i
         week_day = array[1].to_i
  
@@ -34,10 +38,10 @@ module CalendarHelper
         selected_places = []
         
         months.each do |month_num|
-            @json_database["villes"].each do |ville|
-                ville["debarras"]["secteur"].each do |secteur|
-                    selected_places << ville["nom"]
-                    selected_dates << current_month_dates(month_num, secteur[1])
+            @cities.each do |city|
+                city.sectors.each do |sector|
+                    selected_places << city.name
+                    selected_dates << current_month_dates(month_num, sector.bin_brocantes.first)
                 end
             end
         end

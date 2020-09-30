@@ -20,6 +20,10 @@ file["villes"].each_with_index do |city, index_city|
 
         sector["rues"].each do |street|
             @this_street = Street.create!(name: street["nom"], sector: @this_sector)
+
+            BinWaste.create!(days: street["dechets"], street: @this_street)
+            BinRecycle.create(days: street["emballage-et-papier"], street: @this_street)
+            BinGreen.create!(days: street["vegetaux"], street: @this_street)
         end
     end
     
