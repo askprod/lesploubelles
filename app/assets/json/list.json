@@ -3,7 +3,9 @@
           {
               "nom": "Bourg-La-Reine",
               "debarras": {
-                "secteur": ["1er Mercredi du Mois"]
+                "secteur": {
+                  "0": "1er Mercredi du Mois"
+                }
               },
               "rues": [
                 {
@@ -32,7 +34,9 @@
           {
             "nom": "Sceaux",
             "debarras": {
-              "secteur": ["2eme Jeudi du Mois"]
+              "secteur": {
+                "0": "2eme Jeudi du Mois"
+              }
             },
             "rues": [
               {
@@ -67,7 +71,7 @@
             "debarras": {
               "secteur":
                 {
-                  "1": "4eme Mardi du Mois",
+                  "1": "3eme Mercredi du Mois",
                   "2": "4eme Mercredi du Mois",
                   "3": "4eme Jeudi du Mois",
                   "4": "4eme Vendredi du Mois"
