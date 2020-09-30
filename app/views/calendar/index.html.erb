@@ -2,20 +2,17 @@
 
 <h1>Date de passage des emcombrants</h1>
 
-
 <h2>Prochaine date:</h2>
 <% next_debarras(@today).each do |data| %>
-    <p>A <%= data[0] %>, le <%= data[1] %>
+    <p>A <%= data[0] %>, le <%= data[1] %></p>
 <% end %>
 
 <% @months_of_year.each do |month| %>
     <h2><%= Date::MONTHNAMES[month] %></h2>
     <% @json_database["villes"].each do |ville| %>
         <h3><%= ville["nom"] %></h3>
-            <% ville["debarras"]["secteur"].each_with_index do |secteur| %>
-                    <p>Secteur <%= secteur[0] %>: <%= current_month_dates(month, secteur[1]) %>
-            <% end %>
-
-
+        <% ville["debarras"]["secteur"].each_with_index do |secteur| %>
+                <p>Secteur <%= secteur[0] %>: <%= current_month_dates(month, secteur[1]) %>
+        <% end %>
     <% end %>
 <% end %>
