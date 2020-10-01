@@ -1,0 +1,47 @@
+<h2 class="text-center">Chercher une Rue</h2>
+<div class="row">
+    <div class="mx-auto">
+        <%= form_tag(search_path, method: "post", class: "form-inline", remote: true) do %>
+            <%= select_tag "city", options_from_collection_for_select(@cities, "slug", "name"), prompt: "Ville", class: "custom-select col-6" %>
+            <%= select_tag "street", options_from_collection_for_select(@streets, "slug", "name"), prompt: "Rue", class: "custom-select col-6" %>
+            <div class="row mx-auto my-2">
+            <%= submit_tag("Search", class: "btn btn-primary") %>
+            </div>
+        <% end %>
+    </div>
+</div>
+
+<div class="row" id="poubelles_listing">
+</div>
+
+<script>
+$(document).ready(function() {
+    if ($("select#city").val() == "") {
+        $("select#street option").remove();
+        var rowStreet = "<option value=\"" + "" + "\">" + "Rue" + "</option>";
+        $(rowStreet).appendTo("select#street");
+        }
+    $("select#city").change(function() {
+        var id_value_string = $(this).val();
+        if (id_value_string == "") {
+        $("select#street option").remove();
+        var row = "<option value=\"" + "" + "\">" + "Rue" + "</option>";
+        $(row).appendTo("select#street");
+    } else {
+        $.ajax({
+            dataType: "json",
+            url: '/search-streets/' + id_value_string,
+            success: function(data) {
+                $("select#street option").remove();
+                    var row = "<option value=\"" + "" + "\">" + "Rue" + "</option>";
+                    $(row).appendTo("select#street");
+                    $.each(data, function(i, j) {
+                    row = "<option value=\"" + j.id + "\">" + j.name + "</option>";
+                    $(row).appendTo("select#street");
+                    });
+                }
+        });
+    }
+    });
+});
+</script>

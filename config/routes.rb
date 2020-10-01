@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
   root to: "home#index"
 
-  match "/map", to: "map#index", via: :get
+  match "/search", to: "search#index", via: :get
+  post '/search' => 'search#search'
+
   match "/calendar", to: "calendar#index", via: :get
 
-  get 'get_streets_by_city/:city_id', to: 'map#get_streets_by_city'  
-  get '/map/search' => 'map#search'
+  resources :cities, path: "villes" do
+      resources :streets, path: "", only: [:index, :show]
+  end
+
+  get '/search-streets/:city', to: 'search#search_streets'  
 end
