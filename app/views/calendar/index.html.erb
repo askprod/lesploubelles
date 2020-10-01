@@ -3,7 +3,7 @@
 <h1>Date de passage des emcombrants</h1>
 
 <h2>Prochaine date:</h2>
-<% next_debarras(@today).each do |data| %>
+<% next_emcombrants_date(@today).each do |data| %>
     <p>A <%= data[0] %>, le <%= data[1] %></p>
 <% end %>
 

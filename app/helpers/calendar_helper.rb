@@ -30,7 +30,7 @@ module CalendarHelper
         return result.strftime("%A %d %B %Y") if result
     end
 
-    def next_debarras(day)
+    def next_emcombrants_date(day)
         start_month = Date.new(day.year, day.month).beginning_of_month.month
         end_month = Date.new(day.year, day.month).beginning_of_month.next_month.month
         months = [start_month, end_month]
