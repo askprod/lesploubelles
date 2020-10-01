@@ -4,12 +4,17 @@ class StreetsController < ApplicationController
   # GET /streets
   # GET /streets.json
   def index
-    @streets = City.friendly.find(params[:city_id]).streets.all
+    @city = City.friendly.find(params[:city_id])
+    @streets = @city.streets.all
   end
 
   # GET /streets/1
   # GET /streets/1.json
   def show
+    @city = City.friendly.find(params[:city_id])
+    @bin_recycles = @street.bin_recycles.first
+    @bin_wastes = @street.bin_wastes.first
+    @bin_greens = @street.bin_greens.first
   end
 
   # GET /streets/new

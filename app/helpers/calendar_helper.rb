@@ -1,18 +1,11 @@
 module CalendarHelper
-    def translate_week_name(bin_brocante)
-        days_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
-        days_rails = ["1", "2", "3", "4", "5", "6", "0"]
-        new_index = days_fr.find_index(bin_brocante).to_i
-        return days_rails[new_index]
-    end
-
     def find_month_with_int(int)
         return Date::MONTHNAMES[int]
     end
 
     def clean_list_string(bin_brocante)
         num = bin_brocante.weeks_to_skip
-        day = translate_week_name(bin_brocante.day_of_week)
+        day = convert_day_to_int(bin_brocante.day_of_week)
         return [num, day]
     end
 
@@ -22,7 +15,7 @@ module CalendarHelper
         end_date = Date.new(year, month).end_of_month
 
         array = clean_list_string(bin_brocante)
-        weeks_to_skip = array[0].to_i
+        weeks_to_skip = array[0]
         week_day = array[1].to_i
  
         result = (start_date..end_date).group_by(&:wday)[week_day][weeks_to_skip - 1]

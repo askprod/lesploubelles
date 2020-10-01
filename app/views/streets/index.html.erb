@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Streets</h1>
+<h1><%= @city.name %></h1>
 
 <table>
   <thead>
@@ -12,6 +12,7 @@
   <tbody>
     <% @streets.each do |street| %>
       <tr>
+        <td><%= street.name %></td>
         <td><%= link_to 'Show', city_street_path(street.city, street) %></td>
       </tr>
     <% end %>

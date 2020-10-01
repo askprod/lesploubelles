@@ -1,4 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<p><%= @street.name %>
+<h1><%= @city.name %></h1>
+<h2><%= @street.name %></h2>
+<h3>Jours de passage:</h3>
+
+<p>Déchets: <%= @bin_wastes.days.join(" & ") %></p>
+<p>Prochain passage le <%= next_pass_date(@bin_wastes.days) %></p>
+<p>Recyclage: <%= @bin_recycles.days.join(" & ") %></p>
+<p>Prochain passage le <%= next_pass_date(@bin_recycles.days) %></p>
+<p>Végétaux: <%= @bin_greens.days.join(" & ") %></p>
+<p>Prochain passage le <%= next_pass_date(@bin_greens.days) %></p>
+
 
