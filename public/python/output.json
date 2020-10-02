@@ -1,0 +1,3185 @@
+{
+  "villes": [
+    {
+      "nom": "malakoff",
+      "secteurs": [
+        {
+          "numero": "1",
+          "debarras": "1er mercredi du mois",
+          "rues": [
+            {
+              "nom": "carrefour du 19 mars 1962",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue du 19 mars 1962",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa adnot",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "impasse albert marie",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue albert samain",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue alexis martin",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue ampère",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "avenue anatole france",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue andré rivoire",
+              "dechets": [
+                "pav face aux 2, 5, 9 et 12"
+              ],
+              "emballage-et-papier": [
+                "pav face aux 2, 5, 9 et 12"
+              ],
+              "vegetaux": [
+                "pav face aux 2, 5, 9 et 12"
+              ]
+            },
+            {
+              "nom": "15 rue andré rivoire - ecole maternelle et élémentaire paul langevin",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "impasse andré sabatier",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue andré sabatier",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "sentier andré sabatier",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "avenue arblade",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "passage d'arcole ",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "villa d'arcueil ",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue arthur rimbaud",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue avaulée",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "sentier des bas garmants",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa bel-air",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue benjamin raspail",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "villa bourgeois",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa cacheux",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "50-52 boulevard camelinat",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "90 boulevard camelinat",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "boulevard camélinat",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "impasse carnot",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue carnot",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue caron",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "sentier des cerisiers",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue charles baudelaire",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa du chemin de fer",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse christiane",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse du clos",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "place du clos montholon",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "8 boulevard du colonel fabien",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "11 boulevard du colonel fabien",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "boulevard du colonel fabien",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "carrefour du colonel fabien",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "square de la coulée verte",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "sentier de la croix",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue danicourt",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue du docteur ménard",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "villa drouet",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue drouet peupion",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa des economes",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "allée de l'espérance ",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "78-80-82-84 rue etienne dolet",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue etienne dolet",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "square féburier",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse ferri",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse des fosses rouges",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "sentier des fosses rouges",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue françois fabié",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue frédéric fournier",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "boulevard des frères vigouroux",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "boulevard gabriel péri du 1 au 29 - côté impair",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "boulevard gabriel péri du 2 au 42 - côté pair",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue gallieni",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue des garmants",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "sentier des garmants",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue du général malleret-joinville",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa geneviève",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue georges brassens",
+              "dechets": [
+                "pav face aux 4, 5 et 10"
+              ],
+              "emballage-et-papier": [
+                "pav face aux 4, 5 et 10"
+              ],
+              "vegetaux": [
+                "pav face aux 4, 5 et 10"
+              ]
+            },
+            {
+              "nom": "rue georges henri",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue germaine",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "impasse des groux",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "50 rue guy moquet",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue guy moquet du 1 au 89 - côté impair",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue guy moquet du 2 au 88 - côté pair",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue guy moquet du 91 au 107 - côté impair",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue guy moquet du 90 au 110 - côté pair",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "boulevard henri barbusse",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "allée hoche",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue hoche",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin",
+                "pav face aux 14 et 75"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin",
+                "pav face aux 14 et 75"
+              ],
+              "vegetaux": [
+                "jeudi matin",
+                "pav face aux 14 et 75"
+              ]
+            },
+            {
+              "nom": "rue hubert ponscarme",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "avenue irène et frédéric joliot-curie",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir",
+                "pav face aux 4 et 8/10"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav face aux 4 et 8/10"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav face aux 4 et 8/10"
+              ]
+            },
+            {
+              "nom": "villa des iris",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "voie d'issy ",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "allèe jacques brel",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "avenue jean jaurès",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "cité jean jaurès",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue jean lurèat",
+              "dechets": [
+                "pav face aux 1, 5 et 11 et angle rue jean moulin"
+              ],
+              "emballage-et-papier": [
+                "pav face aux 1, 5 et 12 et angle rue jean moulin"
+              ],
+              "vegetaux": [
+                "pav face aux 1, 5 et 12 et angle rue jean moulin"
+              ]
+            },
+            {
+              "nom": "rue jean mermoz",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue jean moulin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue jean-jacques rousseau",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "allée jeanne",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue jules dalou",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "74 rue jules guesde",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue jules guesde",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue jules védrines",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin",
+                "pav face aux 31, 33bis, 35 bis, 37 bis et 39 bis"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin",
+                "pav face aux 31, 33bis, 35 bis, 37 bis et 39 bis"
+              ],
+              "vegetaux": [
+                "jeudi matin",
+                "pav face aux 31, 33bis, 35 bis, 37 bis et 39 bis"
+              ]
+            },
+            {
+              "nom": "villa labrousse",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue laforest",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue ledru-rollin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "villa léger",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "place léo figuères",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue léon salagnac",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue de lorraine",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue louis girard",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue louis mercier",
+              "dechets": [
+                "pav face aux 1 et 2"
+              ],
+              "emballage-et-papier": [
+                "pav face aux 1 et 2"
+              ],
+              "vegetaux": [
+                "pav face aux 1 et 2"
+              ]
+            },
+            {
+              "nom": "rue lucien et edouard gerber",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue marc seguin",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse marceau",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "allée marguerite",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue marie lahy hollebecque",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa marie-antoinette",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "allée marie-jeanne",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "allée marie-louise",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa marotte",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue mathilde",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue maurice bouchor",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "avenue maurice thorez",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir",
+                "pav face aux 13/15/17 et aux 7/9/11"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav face aux 13/15/17 et aux 7/9/11"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav face aux 13/15/17 et aux 7/9/11"
+              ]
+            },
+            {
+              "nom": "mail maurice thorez",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue maximilien robespierre",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "passage michelin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "allée mirabeau",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "impasse des négriers",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue neuve montholon",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue nicomédès pascual du 1 au 15 - coté impair",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue nicomédès pascual du 2 au 18 - coté pair",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue nicomédès pascual du 17 au 21 - coté impair",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue nicomédès pascual du 20 au 34 - coté pair",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "sentier des nouzeaux",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue pasteur",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "6 rue paul bert",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue paul bert du 1 au 21 - coté impair",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue paul bert du 2 au 22 - côté pair",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue paul bert du 23 au 51 - côté impair",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue paul bert du 24 au 52 - côté pair",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue paul eluard",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue paul vaillant couturier",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue paul valéry",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue paul verlaine",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa paulette",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue perrot",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "passage du petit vanves",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "210 avenue pierre brossolette",
+              "dechets": [
+                "pav face aux halls 1, 5 et 12"
+              ],
+              "emballage-et-papier": [
+                "pav face aux halls 1, 5 et 12"
+              ],
+              "vegetaux": [
+                "pav face aux halls 1, 5 et 12"
+              ]
+            },
+            {
+              "nom": "avenue pierre brossolette du 148 au 244",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse pierre curie",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "impasse pierre simon",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue pierre valette",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir",
+                "pav aux 24 ˆ 46 et zac dolet brossolette"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav aux 24 ˆ 46 et zac dolet brossolette"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav aux 24 ˆ 46 et zac dolet brossolette"
+              ]
+            },
+            {
+              "nom": "passage du pierrier",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "impasse ponscarme",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue raffin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue raymond david",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue renault",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse ressort",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "passage richard",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue des roissys",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "sentier de la sablonnière",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "villa sabot",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "rue du stade municipal",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "28 boulevard de stalingrad",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "29 boulevard de stalingrad",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "32 boulevard de stalingrad",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "boulevard de stalingrad",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "passage du théâtre",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "sentier du tir",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "allée tissot",
+              "dechets": [
+                "lundi matin",
+                "mercredi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "impasse de vanves",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            },
+            {
+              "nom": "impasse vauban",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue vincent morris",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "villa yvonne",
+              "dechets": [
+                "lundi matin",
+                "vendredi matin"
+              ],
+              "emballage-et-papier": [
+                "jeudi matin"
+              ],
+              "vegetaux": [
+                "jeudi matin"
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "2",
+          "debarras": "4eme lundi du mois",
+          "rues": [
+            {
+              "nom": "avenue du 12 février 1934",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "1 place du 14 juillet",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "place du 14 juillet",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "place du 11 novembre",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "boulevard adolphe pinard",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue alfred de musset",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue andré coin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse archin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "avenue augustin dumont",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue augustine variot",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "2 rue beranger",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue béranger",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse césaire",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "boulevard charles de gaulle du 1 au 55",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse de châtillon",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "14 rue chauvelot",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue chauvelot",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir",
+                "pav face au 38 bis"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav face au 38 bis"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav face au 38 bis"
+              ]
+            },
+            {
+              "nom": "rue danton",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "place depinoy",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "villa des ecoles",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue edgar quinet",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue emile zola",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue ernest renan",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir",
+                "pav face au 20"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav face au 20"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav face au 20"
+              ]
+            },
+            {
+              "nom": "rue eugène varlin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue françois belloeuvre",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "1 rue francois coppée",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "11 rue francois coppée",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue françois coppée",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue gabriel crié",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "boulevard gabriel péri du 31 au 175 - côté impair",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "boulevard gabriel péri du 44 au 186 - côté pair",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue gambetta",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir",
+                "pav face au 5 et 34-36"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav face au 5 et 34-36"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav face au 5 et 34-36"
+              ]
+            },
+            {
+              "nom": "rue d'hébécourt ",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue henri martin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue jacques prévert",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "avenue jules ferry",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "passage larousse du 1 au 11 bis - côté impair - et du 2 au 8 - côté pair - présentation sur la rue ernest renan",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "passage larousse du 13 au 23 - côté impair - et du 2 au 18 - côté pair - présentation sur l'avenue pierre larousse",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue du lavoir",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue legrand",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse leroyer",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "villa loret",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "5 rue louis blanc",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "crèche wilson louis blanc (rue)",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue louis blanc",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "2 avenue du maréchal leclerc",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "avenue du maréchal leclerc",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "22 passage du nord",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "passage du nord",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "avenue pierre brossolette du 2 au 146",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "53 avenue pierre larousse",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "54 avenue pierre larousse",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "56 avenue pierre larousse",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "58 avenue pierre larousse",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "83 avenue pierre larousse",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "avenue pierre larousse",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "square pierre larousse",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "avenue du président wilson",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse puzin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue raymond fassin",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "place de la république",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "villa rose",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue rouget de lisle",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse sainte-hélène",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue salvador allende",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue savier",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir",
+                "pav au 35"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav au 35"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav au 35"
+              ]
+            },
+            {
+              "nom": "rue scelle",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "impasse du tir",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue de la tour",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir",
+                "pav face aux n4, 12, 16 et angle rue ernest renan"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav face aux n4, 12 et 16 et angle rue ernest renan"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav face aux n4, 12 et 16 et angle rue ernest renan"
+              ]
+            },
+            {
+              "nom": "ernest renan",
+              "dechets": [
+                "jeudi soir",
+                "pav face aux 4, 12 et 16 et angle rue ernest renan"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav face au n20"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav face au n20"
+              ]
+            },
+            {
+              "nom": "rue de la vallée",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "16 rue victor hugo",
+              "dechets": [
+                "lundi soir",
+                "mercredi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue victor hugo",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir"
+              ],
+              "vegetaux": [
+                "jeudi soir"
+              ]
+            },
+            {
+              "nom": "rue voltaire",
+              "dechets": [
+                "lundi soir",
+                "vendredi soir",
+                "pav face aux 17 et 29"
+              ],
+              "emballage-et-papier": [
+                "jeudi soir",
+                "pav face aux 17 et 29"
+              ],
+              "vegetaux": [
+                "jeudi soir",
+                "pav face aux 17 et 29"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
