@@ -1,9 +1,24 @@
 <p id="notice"><%= notice %></p>
 
+<% provide :head_tags do %>
+    <script>
+    $(document).ready(function() {
+        const options = {
+            center: {lat: -34.397, lng: 150.644},
+            zoom: 16
+        };
+
+        initMap("<%= @street.name %>, <%= @city.name %>", options)
+    });
+    </script>
+<% end %>
+
 <h1><%= @city.name %></h1>
 <h2><%= @street.name %></h2>
-<h3>Jours de passage:</h3>
 
+<div id="city-map"></div>
+
+<h3>Jours de passage:</h3>
 <p>Déchets: <%= @bin_wastes.days.join(" & ") %></p>
 <p>Prochain passage le <%= next_pass_date(@bin_wastes.days) %></p>
 <p>Recyclage: <%= @bin_recycles.days.join(" & ") %></p>
