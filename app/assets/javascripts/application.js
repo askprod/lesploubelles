@@ -14,9 +14,9 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require cocoon
+//= require twitter/typeahead
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
 //= require_tree .
 
 function initMap(inputAddress, mapOptions) {

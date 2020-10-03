@@ -1,13 +1,11 @@
 <h1 class="text-center">Chercher une Rue</h1>
 
-<%= form_tag(search_path, method: "post", remote: true) do %>
-    <div class="row no-gutters mx-auto w-75">
-        <div class="col">
-            <%= select_tag "city", options_from_collection_for_select(@cities, "slug", "name"), prompt: "Ville", class: "form-control" %>
-        </div>
-        <div class="col">
-            <%= select_tag "street", options_from_collection_for_select(@streets, "slug", "name"), prompt: "Rue", class: "form-control" %>
-        </div>
+<%= form_tag(search_path, method: "post") do %>
+    <div class="from-group">
+            <%= text_field_tag :city, nil, placeholder: "Ville", class: "form-control" %>
+    </div>
+    <div class="form-group">
+            <%= text_field_tag :street, nil, placeholder: "Rue", class: "form-control d-none" %>
     </div>
     <div class="form-group text-center my-2">
         <%= submit_tag("Search", class: "btn btn-primary") %>
@@ -16,32 +14,52 @@
 
 <script>
 $(document).ready(function() {
-    if ($("select#city").val() == "") {
-        $("select#street option").remove();
-        var rowStreet = "<option value=\"" + "" + "\">" + "Rue" + "</option>";
-        $(rowStreet).appendTo("select#street");
+    var cities = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.whitespace,
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        remote: {
+        url: '/city/autocomplete?city=%QUERY',
+        wildcard: '%QUERY'
         }
-    $("select#city").change(function() {
-        var id_value_string = $(this).val();
-        if (id_value_string == "") {
-        $("select#street option").remove();
-        var row = "<option value=\"" + "" + "\">" + "Rue" + "</option>";
-        $(row).appendTo("select#street");
-    } else {
+    });
+
+    typeaheadCity = $('#city').typeahead(null, {
+        source: cities
+    });
+
+    typeaheadCity.on('typeahead:selected', function(e, selected) {
+        var id_value_string = $(this).val().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
         $.ajax({
             dataType: "json",
             url: '/search-streets/' + id_value_string,
-            success: function(data) {
-                $("select#street option").remove();
-                    var row = "<option value=\"" + "" + "\">" + "Rue" + "</option>";
-                    $(row).appendTo("select#street");
-                    $.each(data, function(i, j) {
-                    row = "<option value=\"" + j.id + "\">" + j.name + "</option>";
-                    $(row).appendTo("select#street");
-                    });
-                }
+            dataType: 'json',
+            success: function(response) {
+                $("#street").removeClass("d-none");
+
+                function jsonToArr(json)  {
+                    arrResult = [];
+                    for (var i = 0; i < json.length; i++) {
+                        arrResult.push(response[i].name);
+                    }
+                    return arrResult
+                };
+
+                var streets = new Bloodhound({
+                    local: jsonToArr(response),
+                    datumTokenizer: Bloodhound.tokenizers.whitespace,
+                    queryTokenizer: Bloodhound.tokenizers.whitespace,
+                });
+
+                $('#street').typeahead({
+                    highlight: true
+                },
+                {
+                    name: "streets",
+                    source: streets.ttAdapter()
+                });
+
+            }
         });
-    }
     });
 });
 </script>

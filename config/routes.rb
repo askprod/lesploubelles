@@ -5,9 +5,11 @@ Rails.application.routes.draw do
   post '/search' => 'search#search'
   get '/search-streets/:city', to: 'search#search_streets'  
 
+  match '/city/autocomplete', to: 'search#city_autocomplete', via: :get
+
   match "/calendar", to: "calendar#index", via: :get
 
-  resources :cities, path: "villes", only: [:show] do
+  resources :cities, path: "villes", only: [:index, :show] do
       resources :streets, path: "", only: [:index, :show]
   end
 

@@ -6,27 +6,23 @@ class SearchController < ApplicationController
   
     def search_streets
       @streets = City.friendly.find(params[:city]).streets
-  
+
       respond_to do |format|
-        format.json { render :json => @streets }
+        format.json { render json: @streets.to_json, status: 200 }
       end
     end 
   
     def search
-      # @city = City.friendly.find(params[:city]).slug
-      # @street = Street.friendly.find(params[:street]).slug
-      # @poubelles = City.friendly.find(params[:city]).streets.where(id: params[:street])
-  
       if params[:street].present?
-        city = City.friendly.find(params[:city]).slug
-        street = Street.friendly.find(params[:street]).slug
+        city = City.find_by(name: params[:city]).slug
+        street = Street.find_by(name: params[:street]).slug
         @url = "/villes/#{city}/#{street}"
       elsif params[:street].present?
-        city = City.friendly.find(params[:city]).slug
-        street = Street.friendly.find(params[:street]).slug
+        city = City.find_by(name: params[:city]).slug
+        street = Street.find_by(name: params[:street]).slug
         @url = "/villes/#{@city}/#{@street}"
       elsif params[:city].present?
-        city = City.friendly.find(params[:city]).slug
+        city = City.find_by(name: params[:city]).slug
         @url = "/villes/#{city}"
       end
   
@@ -34,4 +30,14 @@ class SearchController < ApplicationController
         format.html {redirect_to @url}
       end
     end
-  end
+
+    def city_autocomplete
+      render json: City.search(params[:city], {
+        fields: ["name"],
+        match: :word_start,
+        limit: 10,
+        load: false,
+        misspellings: {below: 2}
+      }).map(&:name)
+    end
+end
