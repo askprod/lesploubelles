@@ -20,9 +20,9 @@
 //= require_tree .
 
 function initMap(inputAddress, mapOptions) {
-    const map = new google.maps.Map(document.getElementById('city-map'), mapOptions);
+    var map = new google.maps.Map(document.getElementById('city-map'), mapOptions);
 
-    const geocoder = new google.maps.Geocoder();
+    var geocoder = new google.maps.Geocoder();
     geocodeAddress(inputAddress, map);
 
     function geocodeAddress(address, resultsMap) {
