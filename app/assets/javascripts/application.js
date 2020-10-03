@@ -26,7 +26,7 @@ function initMap(inputAddress, mapOptions) {
     geocodeAddress(inputAddress, map);
 
     function geocodeAddress(address, resultsMap) {
-        geocoder.geocode({ address: address }, (results, status) => {
+        geocoder.geocode({ address: address }, function(results, status) {
           if (status === "OK") {
             resultsMap.setCenter(results[0].geometry.location);
             new google.maps.Marker({
