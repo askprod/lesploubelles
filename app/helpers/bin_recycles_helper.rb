@@ -1,0 +1,2 @@
+module BinRecyclesHelper
+end

@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= stylesheet_link_tag "application", media: "all" %>
     <%= javascript_include_tag "application" %>
-    <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=' + Rails.application.credentials.google_maps_api_key %>
     <%= yield(:head_tags) %>
   </head>
 
   <body>
+    <%= render partial: "layouts/header_logo" %>
     <%= yield %>
   </body>
 </html>

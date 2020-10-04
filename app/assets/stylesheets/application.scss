@@ -14,9 +14,40 @@
 
 @import "bootstrap";
 
+$bin-grey: #3c3c3c ;
+$bin-orange: #E67E22 ;
+$bin-yellow: #FEF160 ;
+$bin-blue: #2C82C9 ;
+$bin-green: #2ECC71;
+
+.bg-orange {
+      background-color: $bin-orange;
+      background-image: linear-gradient(to left, rgba(0,0,0,0) 10%, rgb(255, 255, 255) 10%);
+}
+
+.bg-grey {
+      background-color: $bin-grey;
+      background-image: linear-gradient(to left, rgba(0,0,0,0) 10%, rgb(255, 255, 255) 10%);
+}
+
+.bg-green {
+      background-color: $bin-green;
+      background-image: linear-gradient(to left, rgba(0,0,0,0) 10%, rgb(255, 255, 255) 10%);
+}
+
+.bg-blue {
+      background-color: $bin-blue;
+      background-image: linear-gradient(to left, rgba(0,0,0,0) 10%, rgb(255, 255, 255) 10%);
+}
+
+.bg-yellow {
+      background-color: $bin-yellow;
+      background-image: linear-gradient(to left, rgba(0,0,0,0) 10%, rgb(255, 255, 255) 10%);
+}
+
 #city-map {
 height: 300px;
-width: 300px;
+width: 100%;
 }
 
 .twitter-typeahead{
@@ -64,4 +95,21 @@ background-color: #0097cf;
 
 .tt-suggestion p {
 margin: 0;
+}
+
+#main-logo {
+      height: 100px;
+      width: 100%;
+}
+
+.big-x-margin {
+      margin: 0 25%; 
+}
+
+.medium-x-margin {
+      margin: 0 20%; 
+}
+
+.small-x-margin {
+      margin: 0 15%; 
 }

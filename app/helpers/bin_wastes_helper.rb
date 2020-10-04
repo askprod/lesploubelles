@@ -1,0 +1,2 @@
+module BinWastesHelper
+end

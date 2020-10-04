@@ -1,6 +1,7 @@
-<p id="notice"><%= notice %></p>
-
 <% provide :head_tags do %>
+
+    <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=' + Rails.application.credentials.google_maps_api_key %>
+
     <script>
     $(document).ready(function() {
         const options = {
@@ -13,17 +14,21 @@
     </script>
 <% end %>
 
-<h1><%= @city.name %></h1>
-<h2><%= @street.name %></h2>
+<div class="text-center small-x-margin">
+    <h1>Toutes les horaires de passage au <%= @street.name %>, à <%= @city.name %>
+</div>
+
+<div class="small-x-margin">
+    <div class="row my-4">
+        <%= render partial: "bin_wastes_info", locals: {days: @bin_wastes.days.join(" et "), next: next_pass_date(@bin_wastes.days)} %>
+    </div>
+    <div class="row my-4">
+        <%= render partial: "bin_recycles_info", locals: {days: @bin_recycles.days.join(" et "), next: next_pass_date(@bin_recycles.days)} %>
+    </div>
+    <div class="row my-4">
+        <%= render partial: "bin_greens_info", locals: {days: @bin_greens.days.join(" et "), next: next_pass_date(@bin_greens.days)} %>
+    </div>
+</div>
 
 <div id="city-map"></div>
-
-<h3>Jours de passage:</h3>
-<p>Déchets: <%= @bin_wastes.days.join(" & ") %></p>
-<p>Prochain passage le <%= next_pass_date(@bin_wastes.days) %></p>
-<p>Recyclage: <%= @bin_recycles.days.join(" & ") %></p>
-<p>Prochain passage le <%= next_pass_date(@bin_recycles.days) %></p>
-<p>Végétaux: <%= @bin_greens.days.join(" & ") %></p>
-<p>Prochain passage le <%= next_pass_date(@bin_greens.days) %></p>
-
 

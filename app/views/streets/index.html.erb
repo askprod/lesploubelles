@@ -1,4 +1,7 @@
 <% provide :head_tags do %>
+
+    <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=' + Rails.application.credentials.google_maps_api_key %>
+
     <script>
     $(document).ready(function() {
       const options = {
@@ -11,27 +14,37 @@
     </script>
 <% end %>
 
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <h1 class="small-x-margin text-center"><%= @city.name %></h1>
 
-<h1><%= @city.name %></h1>
+  <%= render partial: "layouts/city_header_info" %>
 
-<div id="city-map"></div>
+  <div class="row align-items-center">
+    <div class="col">
+      <div id="city-map"></div>
+    </div>
+    <div class="col">
+      <%= render "layouts/map_text_right" %>
+    </div>
+  </div>
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">Streets</th>
-    </tr>
-  </thead>
+  <div>
+    <h2 class="text-center">Liste et horaires de passage par rue</h2>
+    <table class="mx-auto">
+      <tbody>
+        <% @streets.each do |street| %>
+          <tr>
+            <td><%= street.name %></td>
+            <td><%= link_to 'Show', city_street_path(street.city, street) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
 
-  <tbody>
-    <% @streets.each do |street| %>
-      <tr>
-        <td><%= street.name %></td>
-        <td><%= link_to 'Show', city_street_path(street.city, street) %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+  <div class="small-x-margin">
+    <%= render partial: "layouts/city_general_info" %> 
+  </div>
+</div>
 
 

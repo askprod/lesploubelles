@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Bin Greens</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bin_greens.each do |bin_green| %>
+      <tr>
+        <%= bin_green %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -1,0 +1,2 @@
+module BinGreensHelper
+end
