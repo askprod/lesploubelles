@@ -13,12 +13,45 @@
 */
 
 @import "bootstrap";
+@import "font-awesome";
+
+@font-face {
+      font-family: 'AvenirNext';
+      src: url('/fonts/avenir/AvenirNextLTPro-Cn.otf');
+}
+
+@font-face {
+      font-family: 'AvenirNextBold';
+      src: url('/fonts/avenir/AvenirNextLTPro-HeavyCn.otf');
+}
+
+@font-face {
+      font-family: 'AvenirNextLight';
+      src: url('/fonts/avenir/AvenirNextLTPro-UltLtCn.otf');
+}
+
+body {
+      font-family: "AvenirNext";
+}
+
+.avenir {
+      font-family: "AvenirNext";
+}
+
+.avenir-bold {
+      font-family: "AvenirNextBold";
+}
+
+.avenir-light {
+      font-family: "AvenirNextLight";
+}
 
 $bin-grey: #3c3c3c ;
 $bin-orange: #E67E22 ;
 $bin-yellow: #FEF160 ;
 $bin-blue: #2C82C9 ;
 $bin-green: #2ECC71;
+$bin-purple: #9b59b6;
 
 .bg-orange {
       background-color: $bin-orange;
@@ -42,6 +75,11 @@ $bin-green: #2ECC71;
 
 .bg-yellow {
       background-color: $bin-yellow;
+      background-image: linear-gradient(to left, rgba(0,0,0,0) 10%, rgb(255, 255, 255) 10%);
+}
+
+.bg-purple {
+      background-color: $bin-purple;
       background-image: linear-gradient(to left, rgba(0,0,0,0) 10%, rgb(255, 255, 255) 10%);
 }
 
@@ -89,7 +127,7 @@ line-height: 24px;
 
 .tt-suggestion.tt-cursor,.tt-suggestion:hover {
 color: #fff;
-background-color: #0097cf;
+background-color: $bin-green;
 
 }
 
@@ -97,9 +135,13 @@ background-color: #0097cf;
 margin: 0;
 }
 
-#main-logo {
-      height: 100px;
-      width: 100%;
+#main-logo svg {
+      height: 150px;
+      width: 150px;
+}
+
+.bigger-x-margin {
+      margin: 0 30%;
 }
 
 .big-x-margin {
@@ -113,3 +155,19 @@ margin: 0;
 .small-x-margin {
       margin: 0 15%; 
 }
+
+.btn-main {
+      background-color: $bin-green;
+      color: white;
+}
+
+.btn-main:hover {
+      background-color: #19a051;
+      color: white;
+}
+
+#main-search {
+      width: 100%;
+      font-size: 1.3rem;
+}
+

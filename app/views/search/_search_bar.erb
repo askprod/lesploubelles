@@ -1,16 +1,20 @@
-<h1 class="text-center">Cherche ta Rue</h1>
+<h1 class="text-center mb-5 avenir-light">Toutes les informations sur le <span class="avenir">tri dans ta ville</span></h1>
 
-<%= form_tag(search_path, method: "post") do %>
-    <div class="from-group">
-            <%= text_field_tag :city, nil, placeholder: "Ville", class: "form-control" %>
-    </div>
-    <div class="form-group">
-            <%= text_field_tag :street, nil, placeholder: "Rue", class: "form-control d-none" %>
-    </div>
-    <div class="form-group text-center my-2">
-        <%= submit_tag("Search", class: "btn btn-primary") %>
-    </div>
-<% end %>
+<div class="bigger-x-margin">
+    <%= form_tag(search_path, method: "post") do %>
+        <div class="form-group">
+                <%= text_field_tag :city, nil, placeholder: "Cherche ta Ville", class: "form-control form-control-lg p-4 shadow-sm" %>
+        </div>
+        <div class="form-group">
+                <%= text_field_tag :street, nil, placeholder: "Cherche ta Rue", class: "form-control form-control-md shadow-sm d-none" %>
+        </div>
+        <div class="form-group text-center my-2">
+            <%= button_tag type: 'submit', class: "btn btn-main", id: "main-search" do %>
+                <%= fa_icon "search" %>
+            <% end %>
+        </div>
+    <% end %>
+</div>
 
 <script>
 $(document).ready(function() {
@@ -34,7 +38,7 @@ $(document).ready(function() {
             url: '/search-streets/' + id_value_string,
             dataType: 'json',
             success: function(response) {
-                $("#street").removeClass("d-none");
+                $("#street").hide().removeClass("d-none").fadeIn(1000);
 
                 function jsonToArr(json)  {
                     arrResult = [];

@@ -5,4 +5,10 @@ module ApplicationHelper
         new_index = days_fr.find_index(day).to_i
         return days_rails[new_index].to_i
     end
+
+    def show_svg(path)
+        File.open("public/images/#{path}", "rb") do |file|
+          raw file.read
+        end
+    end
 end

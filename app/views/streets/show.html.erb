@@ -14,9 +14,7 @@
     </script>
 <% end %>
 
-<div class="text-center small-x-margin">
-    <h1>Toutes les horaires de passage au <%= @street.name %>, à <%= @city.name %>
-</div>
+<h1 class="text-center mb-5 avenir-light">Les horaires de passage à <span class="avenir"><%= @street.name %>, <%= @city.name %></span></h1>
 
 <div class="small-x-margin">
     <div class="row my-4">
@@ -27,6 +25,9 @@
     </div>
     <div class="row my-4">
         <%= render partial: "bin_greens_info", locals: {days: @bin_greens.days.join(" et "), next: next_pass_date(@bin_greens.days)} %>
+    </div>
+    <div class="row my-4">
+        <%= render partial: "bin_encombrants_info", locals: {days: @bin_greens.days.join(" et "), next: next_pass_date(@bin_greens.days)} %>
     </div>
 </div>
 
