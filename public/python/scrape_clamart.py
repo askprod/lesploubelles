@@ -38,26 +38,26 @@ def clean_trash(s):
 
 form_ = {"villes":[
             {
-              "nom": "chatillon".capitalize(),
+              "nom": "clamart".capitalize(),
               "secteurs": [
                 {
                   "numero": "1",
-                  "debarras": "3eme mardi du mois",
+                  "debarras": "4eme mardi du mois",
                   "rues": []
                 },
                 {
                   "numero": "2",
-                  "debarras": "3eme mercredi lundi du mois",
+                  "debarras": "4eme mercredi lundi du mois",
                   "rues": []
                 },
                 {
                   "numero": "3",
-                  "debarras": "3eme jeudi du mois",
+                  "debarras": "4eme jeudi du mois",
                   "rues": []
                 },
                 {
                   "numero": "4",
-                  "debarras": "3eme vendredi du mois",
+                  "debarras": "4eme vendredi du mois",
                   "rues": []
                 }
               ]
@@ -169,13 +169,18 @@ for f in form_['villes'][0]['secteurs']:
     # d[done_secteur]
     if f['numero'] == d[1]:
       f['rues'].append({
-        'nom': d[0].capitalize(),
+        'nom': d[0],
         'dechets': d[3],
         "emballage-et-papier": d[4],
         "vegetaux": d[5]
         })
 
 print(json.dumps(form_, indent=2, ensure_ascii=False))
+
+
+
+
+
   # print(f)
 
 #   if d[done_secteur] == "1"

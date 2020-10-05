@@ -149,7 +149,17 @@ for d in data:
   elif done_secteur == "2":
     done_debarras = "4eme Lundi du Mois"
 
-  done_data = [done_rue.lower(), done_secteur, done_debarras, done_dechets, done_recycle, done_vegetaux]
+  ##### CAPITALISE FOR PAUL
+  n_done_rue = []
+  for word in done_rue.split():
+    if word not in ['de', 'la', 'l’', 'du', 'des', 'et', 'au', 'les', 'le']:
+      n_done_rue.append(word.capitalize())
+
+  # initialize an empty string
+  cap_done_rue = " ".join(n_done_rue)
+  ############
+
+  done_data = [cap_done_rue, done_secteur, done_debarras, done_dechets, done_recycle, done_vegetaux]
   all_data.append(done_data)
 
 # print(form_['villes'][0]['secteurs'])
@@ -162,7 +172,7 @@ for f in form_['villes'][0]['secteurs']:
         'nom': d[0],
         'dechets': d[3],
         "emballage-et-papier": d[4],
-        "vegetaux": d[4]
+        "vegetaux": d[5]
         })
 
 print(json.dumps(form_, indent=2, ensure_ascii=False))
